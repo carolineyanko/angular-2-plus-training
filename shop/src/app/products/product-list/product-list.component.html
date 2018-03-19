@@ -1,0 +1,9 @@
+<h3>
+  Wonder Products
+</h3>
+<ul>
+  <li *ngFor="let product of products">
+      <app-product
+        [product]="product"></app-product>
+  </li>
+</ul>

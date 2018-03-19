@@ -1,0 +1,16 @@
+ul {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+li {
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+
+    max-width: 300px;
+    padding: 10px;
+    box-sizing: border-box; 
+}
