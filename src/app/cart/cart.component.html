@@ -16,17 +16,17 @@
             <div class="btn-group">
                 <button type="button"
                   class="btn btn-default btn-xs"
-                  (click)="addProductQuantity(cartItem)">
+                  (click)="onAddProductQuantity(cartItem)">
                   <span class="glyphicon glyphicon-plus"></span>
                 </button>
                 <button type="button"
                   class="btn btn-default btn-xs"
-                  (click)="deductProductQuantity(cartItem)">
+                  (click)="onDeductProductQuantity(cartItem)">
                   <span class="glyphicon glyphicon-minus"></span>
                 </button>
             </div>
             <button class="btn btn-danger btn-xs"
-              (click)="deleteProduct(cartItem)">Remove</button>
+              (click)="onDeleteProduct(cartItem)">Remove</button>
           </td>
         </tr>
       </tbody>

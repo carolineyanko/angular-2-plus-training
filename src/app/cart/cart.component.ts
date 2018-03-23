@@ -16,15 +16,15 @@ export class CartComponent implements OnInit {
     this.cartItems = this.cartService.getCart();
   }
 
-  addProductQuantity(item: CartItem): void {
+  onAddProductQuantity(item: CartItem): void {
     this.cartService.increaseQuantity(item);
   }
 
-  deductProductQuantity(item: CartItem): void {
+  onDeductProductQuantity(item: CartItem): void {
     this.cartService.decreaseQuantity(item);
   }
 
-  deleteProduct(item: CartItem): void {
+  onDeleteProduct(item: CartItem): void {
     this.cartService.removeItem(item);
   }
 }
